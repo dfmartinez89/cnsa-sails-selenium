@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        DRIVERS_LOC = "$JENKINS_HOME/selenium-drivers/"
+        DRIVERS_LOC = "/var/jenkins_home/selenium-drivers/"
     }
     tools {
         // Usa aquí el nombre de tu instalación de Maven en Jenkins Tools
