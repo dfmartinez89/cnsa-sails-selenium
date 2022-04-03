@@ -46,7 +46,7 @@ public class LoginForgotTest {
 
 	@Test
 	public void loginForgot() {
-		driver.get("http://localhost:1337/login");
+		driver.get("https://damp-tor-38829.herokuapp.com/login");
 		driver.manage().window().setSize(new Dimension(1366, 741));
 		{
 			List<WebElement> elements = driver.findElements(By.linkText("Forgot your password?"));

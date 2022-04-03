@@ -47,7 +47,7 @@ public class ProfilePasswordTest {
 
 	@Test
 	public void profilePassword() {
-		driver.get("http://localhost:1337/login");
+		driver.get("https://damp-tor-38829.herokuapp.com/login");
 		driver.manage().window().setSize(new Dimension(1366, 741));
 		{
 			WebDriverWait wait = new WebDriverWait(driver, 30);
