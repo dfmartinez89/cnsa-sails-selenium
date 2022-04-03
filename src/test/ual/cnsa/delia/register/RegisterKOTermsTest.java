@@ -35,7 +35,7 @@ public class RegisterKOTermsTest {
 	public void setUp() {
 		System.setProperty("webdriver.gecko.driver", "drivers/geckodriver");
 		FirefoxOptions firefoxOptions = new FirefoxOptions();
-		firefoxOptions.setHeadless(false);
+		firefoxOptions.setHeadless(true);
 		driver = new FirefoxDriver(firefoxOptions);
 		js = (JavascriptExecutor) driver;
 	}
