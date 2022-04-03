@@ -35,7 +35,7 @@ public class LoginOKTest {
 
 	@Before
 	public void setUp() {
-		System.setProperty("webdriver.gecko.driver", "drivers/geckodriver");
+		//System.setProperty("webdriver.gecko.driver", "drivers/geckodriver");
 		FirefoxOptions firefoxOptions = new FirefoxOptions();
 		firefoxOptions.setHeadless(true);
 		driver = new FirefoxDriver(firefoxOptions);
